@@ -9,7 +9,7 @@ client = Client(config.SESSION_NAME, config.API_ID, config.API_HASH)
 pytgcalls = PyTgCalls(client)
 
 
-@pytgcalls.on_stream_end()
+@pytgcalls.on_stream_end(
 def on_stream_end(chat_id: int) -> None:
     queues.task_done(chat_id)
 )
