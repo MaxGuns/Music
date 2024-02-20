@@ -1,7 +1,4 @@
 
- 23 changes: 23 additions & 0 deletions23  
-callsmusic/callsmusic.py
-@@ -0,0 +1,23 @@
 from pyrogram import Client
 from pytgcalls import PyTgCalls
 
