@@ -1,3 +1,7 @@
+
+ 23 changes: 23 additions & 0 deletions23  
+callsmusic/callsmusic.py
+@@ -0,0 +1,23 @@
 from pyrogram import Client
 from pytgcalls import PyTgCalls
 
@@ -21,3 +25,4 @@ def on_stream_end(chat_id: int) -> None:
 
 
 run = pytgcalls.run
+0 
