@@ -1,6 +1,6 @@
 git+https://github.com/XtomiX/pyrogram
 TgCrypto
-py-tgcalls==0.5.2
+pytgcalls==3.0.0.dev22
 python-dotenv
 youtube_dl
 youtube_search_python
